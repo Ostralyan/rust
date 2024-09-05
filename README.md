@@ -32,11 +32,11 @@
 
 ### Web Frameworks
 
-[axum](https://github.com/tokio-rs/axum)
+[axum](https://github.com/tokio-rs/axum) - axum is a web application framework that focuses on ergonomics and modularity.
 
-[actix-web](https://github.com/actix/actix-web)
+[actix-web](https://github.com/actix/actix-web) - Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust
 
-[Rocket](https://github.com/rwf2/Rocket)
+[Rocket](https://github.com/rwf2/Rocket) - Rocket is an async web framework for Rust with a focus on usability, security, extensibility, and speed.
 
 [Tide](https://github.com/http-rs/tide) - Tide is a minimal and pragmatic Rust web application framework built for rapid development. It comes with a robust set of features that make building async web applications and APIs easier and more fun.
 
@@ -49,11 +49,11 @@
 
 ### Database
 #### Sql
-[sqlx](https://github.com/launchbadge/sqlx)
+[sqlx](https://github.com/launchbadge/sqlx) - sqlx is a library which provides a set of extensions on go's standard database/sql library. The sqlx versions of sql.DB, sql.TX, sql.Stmt, et al. all leave the underlying interfaces untouched, so that their interfaces are a superset on the standard ones. This makes it relatively painless to integrate existing codebases using database/sql with sqlx.
 
-[diesel](https://github.com/diesel-rs/diesel)
+[diesel](https://github.com/diesel-rs/diesel) - Diesel gets rid of the boilerplate for database interaction and eliminates runtime errors without sacrificing performance. It takes full advantage of Rust's type system to create a low overhead query builder that "feels like Rust."
 
-[diesel-async](https://github.com/weiznich/diesel_async)
+[diesel-async](https://github.com/weiznich/diesel_async) - Diesel-async provides an async implementation of diesels connection implementation and any method that may issue an query. It is designed as pure async drop-in replacement for the corresponding diesel methods. Similar to diesel the crate is designed in a way that allows third party crates to extend the existing infrastructure and even provide their own connection implementations.
 
 [SeaORM](https://github.com/SeaQL/sea-orm) - SeaORM is a relational ORM to help you build web services in Rust with the familiarity of dynamic languages.
 
