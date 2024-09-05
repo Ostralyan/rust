@@ -1,6 +1,6 @@
 # Resources for rust
 
-# Books
+## Books
 [The Rust Programming Language](https://doc.rust-lang.org/book/)
 
 [Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html#learn-rust-with-entirely-too-many-linked-lists)
@@ -15,17 +15,26 @@
 
 [Effective Rust](https://effective-rust.com/title-page.html)
 
-# Web Frameworks
+## Web Frameworks
 
-# Database Crates
-## Sql
+[axum](https://github.com/tokio-rs/axum)
+
+[actix-web](https://github.com/actix/actix-web)
+
+[Rocket](https://github.com/rwf2/Rocket)
+
+
+## Database Crates
+### Sql
+[sqlx](https://github.com/launchbadge/sqlx)
+
 [diesel](https://github.com/diesel-rs/diesel)
 
 [diesel-async](https://github.com/weiznich/diesel_async)
 
-## NoSql
+### NoSql
 [mongodb](https://github.com/mongodb/mongo-rust-driver)
 
-# Third Party Integrations
+## Third Party Integrations
 
 [async-stripe](https://github.com/arlyon/async-stripe)
