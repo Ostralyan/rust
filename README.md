@@ -18,15 +18,17 @@
 ## Crates
 
 ### Http
-[hyper]()
+[hyper](https://github.com/hyperium/hyper) - A protective and efficient HTTP library for all.
 
-[tungstenite]()
+[tungstenite](https://github.com/snapview/tungstenite-rs) - Lightweight stream-based WebSocket implementation for Rust.
 
-[reqwest]()
+[tokio-tungstenite](https://github.com/snapview/tokio-tungstenite) - Asynchronous WebSockets for Tokio stack.
 
-[post]()
+[reqwest](https://github.com/seanmonstar/reqwest) - An ergonomic, batteries-included HTTP Client for Rust.
 
-[tonic]()
+[prost](https://github.com/tokio-rs/prost) - prost is a Protocol Buffers implementation for the Rust Language. prost generates simple, idiomatic Rust code from proto2 and proto3 files.
+
+[tonic](https://github.com/hyperium/tonic) - tonic is a gRPC over HTTP/2 implementation focused on high performance, interoperability, and flexibility. This library was created to have first class support of async/await and to act as a core building block for production systems written in Rust.
 
 ### Web Frameworks
 
