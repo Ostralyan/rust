@@ -15,6 +15,17 @@
 
 [Effective Rust](https://effective-rust.com/title-page.html)
 
+## Http
+[hyper]()
+
+[tungstenite]()
+
+[reqwest]()
+
+[post]()
+
+[tonic]()
+
 ## Web Frameworks
 
 [axum](https://github.com/tokio-rs/axum)
@@ -40,12 +51,33 @@
 
 [diesel-async](https://github.com/weiznich/diesel_async)
 
+[SeaORM](https://github.com/SeaQL/sea-orm) - SeaORM is a relational ORM to help you build web services in Rust with the familiarity of dynamic languages.
+
 ### NoSql
 [mongodb](https://github.com/mongodb/mongo-rust-driver)
 
 [redis](https://github.com/redis-rs/redis-rs) - Redis-rs is a high level redis library for Rust. It provides convenient access to all Redis functionality through a very flexible but low-level API. It uses a customizable type conversion trait so that any operation can return results in just the type you are expecting. This makes for a very pleasant development experience.
 
-
 ## Third Party Integrations
 
 [async-stripe](https://github.com/arlyon/async-stripe)
+
+## Error Handling
+[anyhow]()
+[thiserror]()
+
+## Serialization
+[serde]()
+[serde_json]()
+[bincode]()
+
+## Async & Concurrency
+[tokio](https://github.com/tokio-rs/tokio) - A runtime for writing reliable, asynchronous, and slim applications with the Rust programming language.
+
+[async-std](https://github.com/async-rs/async-std) - This crate provides an async version of std. It provides all the interfaces you are used to, but in an async version and ready for Rust's async/await syntax.
+
+[futures](https://github.com/rust-lang/futures-rs) - futures-rs is a library providing the foundations for asynchronous programming in Rust. It includes key trait definitions like Stream, as well as utilities like join!, select!, and various futures combinator methods which enable expressive asynchronous control flow.
+
+[mio](https://github.com/tokio-rs/mio) - Mio is a fast, low-level I/O library for Rust focusing on non-blocking APIs and event notification for building high performance I/O apps with as little overhead as possible over the OS abstractions.
+
+
