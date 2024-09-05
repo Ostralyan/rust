@@ -5,15 +5,15 @@
 
 [Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html#learn-rust-with-entirely-too-many-linked-lists) - In this series I will teach you basic and advanced Rust programming entirely by having you implement 6 linked lists.
 
-[Comprehensive Rust](https://google.github.io/comprehensive-rust/index.html)
+[Comprehensive Rust](https://google.github.io/comprehensive-rust/index.html) - This is a free Rust course developed by the Android team at Google. The course covers the full spectrum of Rust, from basic syntax to advanced topics like generics and error handling.
 
-[The Rust Performance Book](https://nnethercote.github.io/perf-book/title-page.html)
+[The Rust Performance Book](https://nnethercote.github.io/perf-book/title-page.html) - This book contains techniques that can improve the performance-related characteristics of Rust programs, such as runtime speed, memory usage, and binary size. The Compile Times section also contains techniques that will improve the compile times of Rust programs. Some techniques only require changing build configurations, but many require changing code.
 
-[Rust Developer](https://robot-dreams-rust.mag.wiki/intro.html)
+[Rust Developer](https://robot-dreams-rust.mag.wiki/intro.html) - Over the next ten weeks, we will go through all the important of the concepts of the Rust programming language, both hands on and in practice via hands-on examples and homeworks.
 
-[Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html)
+[Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html) - Rust is not object-oriented, and the combination of all its characteristics, such as functional elements, a strong type system, and the borrow checker, makes it unique. Because of this, Rust design patterns vary with respect to other traditional object-oriented programming languages. That’s why we decided to write this book. We hope you enjoy reading it! The book is divided in three main chapters:
 
-[Effective Rust](https://effective-rust.com/title-page.html)
+[Effective Rust](https://effective-rust.com/title-page.html) - This book tries to help with these areas where programmers struggle, even if they already have experience with an existing compiled language like C++. As such—and in common with other Effective <Language> books—this book is intended to be the second book that a newcomer to Rust might need, after they have already encountered the basics elsewhere—for example, in The Rust Programming Language (Steve Klabnik and Carol Nichols, No Starch Press) or Programming Rust (Jim Blandy et al., O'Reilly).
 
 ## Crates
 
