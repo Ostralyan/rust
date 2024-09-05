@@ -87,4 +87,6 @@
 
 [mio](https://github.com/tokio-rs/mio) - Mio is a fast, low-level I/O library for Rust focusing on non-blocking APIs and event notification for building high performance I/O apps with as little overhead as possible over the OS abstractions.
 
+[rayon](https://github.com/rayon-rs/rayon) - Rayon is a data-parallelism library for Rust. It is extremely lightweight and makes it easy to convert a sequential computation into a parallel one. It also guarantees data-race freedom.
+
 
