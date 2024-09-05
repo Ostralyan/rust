@@ -1,9 +1,9 @@
 # Resources for rust
 
 ## Books to get started
-[The Rust Programming Language](https://doc.rust-lang.org/book/)
+[The Rust Programming Language](https://doc.rust-lang.org/book/) - Welcome to The Rust Programming Language, an introductory book about Rust. The Rust programming language helps you write faster, more reliable software. High-level ergonomics and low-level control are often at odds in programming language design; Rust challenges that conflict. Through balancing powerful technical capacity and a great developer experience, Rust gives you the option to control low-level details (such as memory usage) without all the hassle traditionally associated with such control.
 
-[Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html#learn-rust-with-entirely-too-many-linked-lists)
+[Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html#learn-rust-with-entirely-too-many-linked-lists) - In this series I will teach you basic and advanced Rust programming entirely by having you implement 6 linked lists.
 
 [Comprehensive Rust](https://google.github.io/comprehensive-rust/index.html)
 
