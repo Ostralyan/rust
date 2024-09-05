@@ -25,15 +25,14 @@
 
 [Tide](https://github.com/http-rs/tide) - Tide is a minimal and pragmatic Rust web application framework built for rapid development. It comes with a robust set of features that make building async web applications and APIs easier and more fun.
 
+[Poem](https://github.com/poem-web/poem) - A full-featured and easy-to-use web framework with the Rust programming language.
 
 [Warp](https://github.com/seanmonstar/warp) - A super-easy, composable, web server framework for warp speeds.
 
 ## WASM
 [Yew](https://github.com/yewstack/yew) - Yew is a modern Rust framework for creating multi-threaded front-end web apps with WebAssembly.
 
-
-
-## Database Crates
+## Database
 ### Sql
 [sqlx](https://github.com/launchbadge/sqlx)
 
@@ -43,6 +42,9 @@
 
 ### NoSql
 [mongodb](https://github.com/mongodb/mongo-rust-driver)
+
+[redis](https://github.com/redis-rs/redis-rs) - Redis-rs is a high level redis library for Rust. It provides convenient access to all Redis functionality through a very flexible but low-level API. It uses a customizable type conversion trait so that any operation can return results in just the type you are expecting. This makes for a very pleasant development experience.
+
 
 ## Third Party Integrations
 
