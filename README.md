@@ -1,6 +1,6 @@
 # Resources for rust
 
-## Books
+## Books to get started
 [The Rust Programming Language](https://doc.rust-lang.org/book/)
 
 [Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html#learn-rust-with-entirely-too-many-linked-lists)
@@ -15,7 +15,9 @@
 
 [Effective Rust](https://effective-rust.com/title-page.html)
 
-## Http
+## Crates
+
+### Http
 [hyper]()
 
 [tungstenite]()
@@ -26,7 +28,7 @@
 
 [tonic]()
 
-## Web Frameworks
+### Web Frameworks
 
 [axum](https://github.com/tokio-rs/axum)
 
@@ -40,11 +42,11 @@
 
 [Warp](https://github.com/seanmonstar/warp) - A super-easy, composable, web server framework for warp speeds.
 
-## WASM
+### WASM
 [Yew](https://github.com/yewstack/yew) - Yew is a modern Rust framework for creating multi-threaded front-end web apps with WebAssembly.
 
-## Database
-### Sql
+### Database
+#### Sql
 [sqlx](https://github.com/launchbadge/sqlx)
 
 [diesel](https://github.com/diesel-rs/diesel)
@@ -53,25 +55,28 @@
 
 [SeaORM](https://github.com/SeaQL/sea-orm) - SeaORM is a relational ORM to help you build web services in Rust with the familiarity of dynamic languages.
 
-### NoSql
+##### NoSql
 [mongodb](https://github.com/mongodb/mongo-rust-driver)
 
 [redis](https://github.com/redis-rs/redis-rs) - Redis-rs is a high level redis library for Rust. It provides convenient access to all Redis functionality through a very flexible but low-level API. It uses a customizable type conversion trait so that any operation can return results in just the type you are expecting. This makes for a very pleasant development experience.
 
-## Third Party Integrations
+### Third Party Integrations
 
 [async-stripe](https://github.com/arlyon/async-stripe)
 
-## Error Handling
-[anyhow]()
-[thiserror]()
+### Error Handling
+[anyhow](https://github.com/dtolnay/anyhow) - This library provides anyhow::Error, a trait object based error type for easy idiomatic error handling in Rust applications.
 
-## Serialization
-[serde]()
-[serde_json]()
-[bincode]()
+[thiserror](https://github.com/dtolnay/thiserror) - This library provides a convenient derive macro for the standard library's std::error::Error trait.
 
-## Async & Concurrency
+### Serialization
+[serde](https://github.com/serde-rs/serde) - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
+
+[serde_json](https://github.com/serde-rs/json) - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
+
+[bincode](https://github.com/bincode-org/bincode) - A compact encoder / decoder pair that uses a binary zero-fluff encoding scheme. The size of the encoded object will be the same or smaller than the size that the object takes up in memory in a running Rust program.
+
+### Async & Concurrency
 [tokio](https://github.com/tokio-rs/tokio) - A runtime for writing reliable, asynchronous, and slim applications with the Rust programming language.
 
 [async-std](https://github.com/async-rs/async-std) - This crate provides an async version of std. It provides all the interfaces you are used to, but in an async version and ready for Rust's async/await syntax.
