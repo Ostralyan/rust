@@ -15,3 +15,17 @@
 
 [Effective Rust](https://effective-rust.com/title-page.html)
 
+# Web Frameworks
+
+# Database Crates
+## Sql
+[diesel](https://github.com/diesel-rs/diesel)
+
+[diesel-async](https://github.com/weiznich/diesel_async)
+
+## NoSql
+[mongodb](https://github.com/mongodb/mongo-rust-driver)
+
+# Third Party Integrations
+
+[async-stripe](https://github.com/arlyon/async-stripe)
