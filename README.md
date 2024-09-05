@@ -23,6 +23,15 @@
 
 [Rocket](https://github.com/rwf2/Rocket)
 
+[Tide](https://github.com/http-rs/tide) - Tide is a minimal and pragmatic Rust web application framework built for rapid development. It comes with a robust set of features that make building async web applications and APIs easier and more fun.
+
+
+[Warp](https://github.com/seanmonstar/warp) - A super-easy, composable, web server framework for warp speeds.
+
+## WASM
+[Yew](https://github.com/yewstack/yew) - Yew is a modern Rust framework for creating multi-threaded front-end web apps with WebAssembly.
+
+
 
 ## Database Crates
 ### Sql
