@@ -78,6 +78,14 @@
 
 [bincode](https://github.com/bincode-org/bincode) - A compact encoder / decoder pair that uses a binary zero-fluff encoding scheme. The size of the encoded object will be the same or smaller than the size that the object takes up in memory in a running Rust program.
 
+### Pub/Sub
+
+[Lapin](https://github.com/amqp-rs/lapin) - This project follows the AMQP 0.9.1 specifications, targeting especially RabbitMQ.
+
+[rust-rdkafka](https://github.com/fede1024/rust-rdkafka) - rust-rdkafka provides a safe Rust interface to librdkafka. This version is compatible with librdkafka v1.9.2+.
+
+[google-cloud-rust](https://github.com/yoshidan/google-cloud-rust) - Rust packages for Google Cloud Platform services.
+
 ### Async & Concurrency
 [tokio](https://github.com/tokio-rs/tokio) - A runtime for writing reliable, asynchronous, and slim applications with the Rust programming language.
 
@@ -95,9 +103,14 @@
 
 [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-rust) - OpenTelemetry is a collection of tools, APIs, and SDKs used to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis in order to understand your software's performance and behavior. You can export and analyze them using Prometheus, Jaeger, and other observability tools.
 
+[Prometheus](https://github.com/tikv/rust-prometheus) - This is the Rust client library for Prometheus. The main data structures and APIs are ported from Go client.
+
+[sentry](https://github.com/getsentry/sentry-rust) - This workspace contains various crates that provide support for logging events and errors / panics to the Sentry error logging service.
+
 # Cryptograph
 
 [jsonwebtoken](https://github.com/Keats/jsonwebtoken)
+
 [oauth2](https://github.com/ramosbugs/oauth2-rs) - An extensible, strongly-typed implementation of OAuth2
 
 # Misc
