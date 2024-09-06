@@ -109,13 +109,13 @@
 
 [sentry](https://github.com/getsentry/sentry-rust) - This workspace contains various crates that provide support for logging events and errors / panics to the Sentry error logging service.
 
-# Cryptograph
+### Cryptograph
 
 [jsonwebtoken](https://github.com/Keats/jsonwebtoken)
 
 [oauth2](https://github.com/ramosbugs/oauth2-rs) - An extensible, strongly-typed implementation of OAuth2
 
-# Misc
+### Misc
 
 [OnceCell](https://github.com/matklad/once_cell) - once_cell provides two new cell-like types, unsync::OnceCell and sync::OnceCell. OnceCell might store arbitrary non-Copy types, can be assigned to at most once and provide direct access to the stored contents. In a nutshell, API looks roughly like this
 
