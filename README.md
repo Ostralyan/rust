@@ -89,7 +89,12 @@
 
 [rayon](https://github.com/rayon-rs/rayon) - Rayon is a data-parallelism library for Rust. It is extremely lightweight and makes it easy to convert a sequential computation into a parallel one. It also guarantees data-race freedom.
 
+[Crossbeam](https://github.com/crossbeam-rs/crossbeam) - This crate provides a set of tools for concurrent programming:
+
 ### Telemetry & Profiling
 
 [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-rust) - OpenTelemetry is a collection of tools, APIs, and SDKs used to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis in order to understand your software's performance and behavior. You can export and analyze them using Prometheus, Jaeger, and other observability tools.
 
+# Misc
+
+[OnceCell](https://github.com/matklad/once_cell) - once_cell provides two new cell-like types, unsync::OnceCell and sync::OnceCell. OnceCell might store arbitrary non-Copy types, can be assigned to at most once and provide direct access to the stored contents. In a nutshell, API looks roughly like this
