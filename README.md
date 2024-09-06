@@ -26,6 +26,8 @@
 
 [reqwest](https://github.com/seanmonstar/reqwest) - An ergonomic, batteries-included HTTP Client for Rust.
 
+[Surf](https://github.com/http-rs/surf) - Surf is a Rust HTTP client built for ease-of-use and multi-HTTP-backend flexibility. Whether it's a quick script, or a cross-platform SDK, Surf will make it work.
+
 [prost](https://github.com/tokio-rs/prost) - prost is a Protocol Buffers implementation for the Rust Language. prost generates simple, idiomatic Rust code from proto2 and proto3 files.
 
 [tonic](https://github.com/hyperium/tonic) - tonic is a gRPC over HTTP/2 implementation focused on high performance, interoperability, and flexibility. This library was created to have first class support of async/await and to act as a core building block for production systems written in Rust.
@@ -62,9 +64,7 @@
 
 [redis](https://github.com/redis-rs/redis-rs) - Redis-rs is a high level redis library for Rust. It provides convenient access to all Redis functionality through a very flexible but low-level API. It uses a customizable type conversion trait so that any operation can return results in just the type you are expecting. This makes for a very pleasant development experience.
 
-### Third Party Integrations
-
-[async-stripe](https://github.com/arlyon/async-stripe)
+[elasticsearch](https://github.com/elastic/elasticsearch-rs)
 
 ### Error Handling
 [anyhow](https://github.com/dtolnay/anyhow) - This library provides anyhow::Error, a trait object based error type for easy idiomatic error handling in Rust applications.
@@ -95,6 +95,15 @@
 
 [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-rust) - OpenTelemetry is a collection of tools, APIs, and SDKs used to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis in order to understand your software's performance and behavior. You can export and analyze them using Prometheus, Jaeger, and other observability tools.
 
+# Cryptograph
+
+[jsonwebtoken](https://github.com/Keats/jsonwebtoken)
+[oauth2](https://github.com/ramosbugs/oauth2-rs) - An extensible, strongly-typed implementation of OAuth2
+
 # Misc
 
 [OnceCell](https://github.com/matklad/once_cell) - once_cell provides two new cell-like types, unsync::OnceCell and sync::OnceCell. OnceCell might store arbitrary non-Copy types, can be assigned to at most once and provide direct access to the stored contents. In a nutshell, API looks roughly like this
+
+### Third Party Integrations
+
+[async-stripe](https://github.com/arlyon/async-stripe)
