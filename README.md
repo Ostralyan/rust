@@ -17,6 +17,8 @@
 
 [The Cargo Book](https://doc.rust-lang.org/nightly/cargo/index.html) - Cargo is the Rust package manager. Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable packages, and uploads them to crates.io, the Rust community’s package registry. You can contribute to this book on GitHub.
 
+[The Rustonomicon](https://doc.rust-lang.org/nomicon/index.html) - The Rustonomicon digs into all the awful details that you need to understand when writing Unsafe Rust programs.
+
 ## Crates
 
 ### Http
