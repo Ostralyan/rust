@@ -15,6 +15,8 @@
 
 [Effective Rust](https://effective-rust.com/title-page.html) - This book tries to help with these areas where programmers struggle, even if they already have experience with an existing compiled language like C++. As such—and in common with other Effective <Language> books—this book is intended to be the second book that a newcomer to Rust might need, after they have already encountered the basics elsewhere—for example, in The Rust Programming Language (Steve Klabnik and Carol Nichols, No Starch Press) or Programming Rust (Jim Blandy et al., O'Reilly).
 
+[The rustup Book](https://rust-lang.github.io/rustup/) - rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated.
+
 [The Cargo Book](https://doc.rust-lang.org/nightly/cargo/index.html) - Cargo is the Rust package manager. Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable packages, and uploads them to crates.io, the Rust community’s package registry. You can contribute to this book on GitHub.
 
 [The Rustonomicon](https://doc.rust-lang.org/nomicon/index.html) - The Rustonomicon digs into all the awful details that you need to understand when writing Unsafe Rust programs.
